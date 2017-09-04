@@ -1,0 +1,49 @@
+body{
+    background-color:black;
+    color:gray;
+    
+}
+
+header, main, nav, footer {
+    text-align:center; 
+}
+
+
+nav a { /* links within "nav" container */
+    padding:15px;
+    padding-bottom:4px;
+    font-size: 1.8em;
+    text-decoration: none; /*removes underline */
+    color: white; /* by default, links are blue */
+}
+
+nav a:hover { /*psuedo class*/
+    border-cottom:2px orange solid;
+    font-size: 2em;
+    transition: .9s; /*transition effect*/
+}
+
+.welcomeText {
+    font-family: 'VT323', monospace;
+    margin: auto;
+    width: 50%;
+    color: rgb(0,255,0);
+    font-size: 125%;
+
+}
+
+
+
+footer {
+    clear: left;
+    color: white;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 100px;
+    width: 100%;
+    overflow:hidden;
+}
+
+/*Clear hyperlink color*/
+a { color: inherit; } 
