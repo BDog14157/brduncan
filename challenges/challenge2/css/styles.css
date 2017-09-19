@@ -1,0 +1,22 @@
+/*#main {*/
+/*    width: 50%;*/
+/*  margin: 0 auto;*/
+/*    }*/
+    
+    #output{
+            text-align:center;
+    }
+    
+    form{
+     text-align:center;       
+    }
+    
+    #reel1{
+        padding-left:400px;
+        margin:30px;
+        
+    }
+    #reel2{
+        padding-left:0px;
+        margin:30px;
+    }

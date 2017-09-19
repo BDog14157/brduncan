@@ -1,0 +1,14 @@
+[12-Sep-2017 18:19:47 UTC] PHP Parse error:  syntax error, unexpected '{', expecting ']' in /home/ubuntu/workspace/brduncan/practice/arrays.php on line 39
+[12-Sep-2017 18:24:51 UTC] PHP Fatal error:  Only variables can be passed by reference in /home/ubuntu/workspace/brduncan/practice/arrays.php on line 43
+[12-Sep-2017 18:25:06 UTC] PHP Warning:  sort() expects parameter 1 to be array, null given in /home/ubuntu/workspace/brduncan/practice/arrays.php on line 43
+[12-Sep-2017 18:25:06 UTC] PHP Stack trace:
+[12-Sep-2017 18:25:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/brduncan/practice/arrays.php:0
+[12-Sep-2017 18:25:06 UTC] PHP   2. sort() /home/ubuntu/workspace/brduncan/practice/arrays.php:43
+[12-Sep-2017 18:26:47 UTC] PHP Warning:  sort() expects parameter 1 to be array, null given in /home/ubuntu/workspace/brduncan/practice/arrays.php on line 43
+[12-Sep-2017 18:26:47 UTC] PHP Stack trace:
+[12-Sep-2017 18:26:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/brduncan/practice/arrays.php:0
+[12-Sep-2017 18:26:47 UTC] PHP   2. sort() /home/ubuntu/workspace/brduncan/practice/arrays.php:43
+[12-Sep-2017 18:26:47 UTC] PHP Warning:  rsort() expects parameter 1 to be array, null given in /home/ubuntu/workspace/brduncan/practice/arrays.php on line 44
+[12-Sep-2017 18:26:47 UTC] PHP Stack trace:
+[12-Sep-2017 18:26:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/brduncan/practice/arrays.php:0
+[12-Sep-2017 18:26:47 UTC] PHP   2. rsort() /home/ubuntu/workspace/brduncan/practice/arrays.php:44
