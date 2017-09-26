@@ -21,12 +21,6 @@ $backgroundImage = "img/sea.jpg";
         
     </head>
     <body>
-        <form method="GET">
-            
-            <input type="text" name="keyword" placeholder="Type keyword"/>
-            <input type="submit" />
-            
-        </form>
 
        <?php
        
@@ -36,55 +30,20 @@ $backgroundImage = "img/sea.jpg";
          include 'api/pixabayAPI.php';
          $imageURLs = getImageURLs($_GET['keyword']);
          //print_r($imageURLs);
-       }
          
          
          
          
+         ?>
+         <form method="GET">
+            
+            <input type="text" name="keyword" placeholder="Type keyword"/>
+            <input type="submit" />
+            
+        </form> 
+        <?php
         
         //5 random images with 200px width
-        //display carousel here
-?>        
-    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-    <!-- indicators here -->
-    <ol class="carousel-indicators">
-    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-  </ol>
-    <!-- wrapper for images --> >
-    <div class="carousel-inner" role="listbox">
-        <?php
-            for ($i = 0; $i<5; $i++){
-                do {
-                    $randomIndex = rand(0, count($randomIndex));
-                } while (!isset($imageURLs[$randomIndex]));
-                
-                echo '<div class="item ';
-                echo ($i==0)?"activate": "";
-                echo '"> ';
-                echo '<img src="' . $imageURLs[$randomIndex] . '">';
-                echo '</div';
-                unset($imageURLs[$randomIndex]);
-            }
-        ?>
-    
-    </div>
-    
-    
-    <!-- Controls Here -->
-    <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
-</div>
-    </div>
-        
-<?php
         for ($i=0; $i<5; $i++){
              do{
                  $randomIndex = rand(0,count($imageURLs));
@@ -93,7 +52,12 @@ $backgroundImage = "img/sea.jpg";
              unset($imageURLs[$randomIndex]);
          }
         
+         
+       ?>
        
+       
+       <?php
+       }// end of else statement
        
        
         if (!isset($imageURLs)) {  //if form hasn't been submitted
@@ -104,7 +68,7 @@ $backgroundImage = "img/sea.jpg";
         } 
         
         ?>
- 
+
 
 
                

@@ -5,3 +5,6 @@
 [05-Sep-2017 18:12:04 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/ubuntu/workspace/brduncan/labs/lab2/index.php on line 53
 [05-Sep-2017 18:12:05 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/ubuntu/workspace/brduncan/labs/lab2/index.php on line 53
 [14-Sep-2017 18:25:12 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/ubuntu/workspace/brduncan/labs/lab3/index.php on line 20
+[26-Sep-2017 03:41:11 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/brduncan/labs/lab4/index.php on line 74
+[26-Sep-2017 03:41:32 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/brduncan/labs/lab4/index.php on line 74
+[26-Sep-2017 03:47:31 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/brduncan/labs/lab4/index.php on line 81
