@@ -12,3 +12,6 @@
 [12-Sep-2017 18:26:47 UTC] PHP Stack trace:
 [12-Sep-2017 18:26:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/brduncan/practice/arrays.php:0
 [12-Sep-2017 18:26:47 UTC] PHP   2. rsort() /home/ubuntu/workspace/brduncan/practice/arrays.php:44
+[26-Sep-2017 06:26:34 UTC] PHP Fatal error:  Function name must be a string in /home/ubuntu/workspace/brduncan/practice/returnData.php on line 8
+[26-Sep-2017 06:26:34 UTC] PHP Stack trace:
+[26-Sep-2017 06:26:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/brduncan/practice/returnData.php:0

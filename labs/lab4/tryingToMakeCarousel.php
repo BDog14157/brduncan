@@ -30,7 +30,7 @@ $backgroundImage = "img/sea.jpg";
          include 'api/pixabayAPI.php';
          $imageURLs = getImageURLs($_GET['keyword']);
          //print_r($imageURLs);
-         
+       }
          
          
          
@@ -53,11 +53,8 @@ $backgroundImage = "img/sea.jpg";
          }
         
          
-       ?>
        
        
-       <?php
-       }// end of else statement
        
        
         if (!isset($imageURLs)) {  //if form hasn't been submitted

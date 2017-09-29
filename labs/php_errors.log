@@ -8,3 +8,17 @@
 [26-Sep-2017 03:41:11 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/brduncan/labs/lab4/index.php on line 74
 [26-Sep-2017 03:41:32 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/brduncan/labs/lab4/index.php on line 74
 [26-Sep-2017 03:47:31 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/brduncan/labs/lab4/index.php on line 81
+[26-Sep-2017 04:21:48 UTC] PHP Fatal error:  Maximum execution time of 300 seconds exceeded in /home/ubuntu/workspace/brduncan/labs/lab4/tryingToMakeCarousel.php on line 49
+[26-Sep-2017 04:21:48 UTC] PHP Stack trace:
+[26-Sep-2017 04:21:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/brduncan/labs/lab4/tryingToMakeCarousel.php:0
+[27-Sep-2017 23:13:23 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF), expecting while (T_WHILE) in /home/ubuntu/workspace/brduncan/labs/lab4/index.php on line 102
+[27-Sep-2017 23:19:14 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/ubuntu/workspace/brduncan/labs/lab4/index.php on line 40
+[28-Sep-2017 00:11:34 UTC] PHP Fatal error:  Maximum execution time of 300 seconds exceeded in /home/ubuntu/workspace/brduncan/labs/lab4/index.php on line 61
+[28-Sep-2017 00:11:34 UTC] PHP Stack trace:
+[28-Sep-2017 00:11:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/brduncan/labs/lab4/index.php:0
+[28-Sep-2017 00:12:37 UTC] PHP Fatal error:  Maximum execution time of 300 seconds exceeded in /home/ubuntu/workspace/brduncan/labs/lab4/index.php on line 61
+[28-Sep-2017 00:12:37 UTC] PHP Stack trace:
+[28-Sep-2017 00:12:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/brduncan/labs/lab4/index.php:0
+[29-Sep-2017 23:54:37 UTC] PHP Fatal error:  Maximum execution time of 300 seconds exceeded in /home/ubuntu/workspace/brduncan/labs/lab4/index.php on line 99
+[29-Sep-2017 23:54:37 UTC] PHP Stack trace:
+[29-Sep-2017 23:54:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/brduncan/labs/lab4/index.php:0

@@ -14,3 +14,17 @@
          margin: 0 auto;   
          width: 700px;
     }
+    
+    form {
+        background-color: grey;
+        color: black;
+    }
+    
+    #input {
+        color:black;
+        
+    }
+    
+    .input {
+        color:black;
+    }
