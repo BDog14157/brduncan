@@ -1,7 +1,11 @@
 
 
+
+
+
 <?php
     $backgroundImg = "img/sea.jpg"; // default bg image
+    
 
     // API call goes here
     if (isset ($_GET['keyword'])) { // if receives 'keyword' value
@@ -58,7 +62,8 @@
     <body>
         <br /><br />
         <form>
-            <input type="text" name="keyword" placeholder="Keyword">
+            
+            <input type="text" name="keyword" placeholder="Keyword" required>
             
             <input id="lhorizontal" type="radio" name="layout" value="horizontal"/>
             <label for="lhorizontal">Horizontal</label>
@@ -66,8 +71,8 @@
             <input id="lvertical" type="radio" name="layout" value="vertical" /> 
             <label for="lvertical">Vertical</label>
             
-            <select name="category">
-                <option value="category">Select Category</option>
+            <select  required name="category">
+                <option value="">Select Category</option>
                 <option value="ocean">Sea</option>
                 <option value="forest">Forest</option>
                 <option value="snow">Snow</option>
@@ -90,7 +95,7 @@
             <!-- Indicators here -->
             <ol class="carousel-indicators">
                 <?php
-                    for ($i = 0; $i < 5; $i++) {
+                    for ($i = 0; $i < 7; $i++) {
                         echo "<li data-target='#carousel-example-generic' data-slide-to='$i'";
                         echo ($i == 0)?" class='active'": "";
                         echo "></li>";
