@@ -1,0 +1,12 @@
+. Prepare the SQL Statement and assign it to a variable:
+$stmt = $dbConn -> prepare ($sql);
+
+Execute the statement, replacing the named parameters:
+ $stmt -> execute (  array ( ':id' => '1')  );
+
+Create a new PDO object passing the following values as parameters:
+    a) MySQL server         b) Database name      c) User name         d) Password
+  
+while ($row = $stmt -> fetch())  {
+    echo  $row['field1_name'] . ", " . $row['field2_name'];
+}
