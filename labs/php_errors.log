@@ -37,3 +37,50 @@ Stack trace:
 #1 /home/ubuntu/workspace/brduncan/labs/lab5/index.php(72): getAllQuotes()
 #2 {main}
   thrown in /home/ubuntu/workspace/brduncan/labs/lab5/index.php on line 21
+[10-Oct-2017 17:34:29 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'quotes.q_quotes' doesn't exist' in /home/ubuntu/workspace/brduncan/labs/lab5/index.php:21
+Stack trace:
+#0 /home/ubuntu/workspace/brduncan/labs/lab5/index.php(21): PDOStatement->execute()
+#1 /home/ubuntu/workspace/brduncan/labs/lab5/index.php(72): getAllQuotes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/brduncan/labs/lab5/index.php on line 21
+[12-Oct-2017 17:17:13 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'quotes.q_quotes' doesn't exist' in /home/ubuntu/workspace/brduncan/labs/lab5/index.php:21
+Stack trace:
+#0 /home/ubuntu/workspace/brduncan/labs/lab5/index.php(21): PDOStatement->execute()
+#1 /home/ubuntu/workspace/brduncan/labs/lab5/index.php(72): getAllQuotes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/brduncan/labs/lab5/index.php on line 21
+[12-Oct-2017 17:21:13 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'quotes.q_quotes' doesn't exist' in /home/ubuntu/workspace/brduncan/labs/lab5/index.php:21
+Stack trace:
+#0 /home/ubuntu/workspace/brduncan/labs/lab5/index.php(21): PDOStatement->execute()
+#1 /home/ubuntu/workspace/brduncan/labs/lab5/index.php(72): getAllQuotes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/brduncan/labs/lab5/index.php on line 21
+[12-Oct-2017 17:21:17 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'quotes.q_quotes' doesn't exist' in /home/ubuntu/workspace/brduncan/labs/lab5/index.php:21
+Stack trace:
+#0 /home/ubuntu/workspace/brduncan/labs/lab5/index.php(21): PDOStatement->execute()
+#1 /home/ubuntu/workspace/brduncan/labs/lab5/index.php(72): getAllQuotes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/brduncan/labs/lab5/index.php on line 21
+[12-Oct-2017 17:21:26 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'quotes.q_quotes' doesn't exist' in /home/ubuntu/workspace/brduncan/labs/lab5/index.php:21
+Stack trace:
+#0 /home/ubuntu/workspace/brduncan/labs/lab5/index.php(21): PDOStatement->execute()
+#1 /home/ubuntu/workspace/brduncan/labs/lab5/index.php(72): getAllQuotes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/brduncan/labs/lab5/index.php on line 21
+[12-Oct-2017 17:21:40 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'quotes.q_quotes' doesn't exist' in /home/ubuntu/workspace/brduncan/labs/lab5/index.php:21
+Stack trace:
+#0 /home/ubuntu/workspace/brduncan/labs/lab5/index.php(21): PDOStatement->execute()
+#1 /home/ubuntu/workspace/brduncan/labs/lab5/index.php(72): getAllQuotes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/brduncan/labs/lab5/index.php on line 21
+[12-Oct-2017 17:21:54 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'quotes.q_quotes' doesn't exist' in /home/ubuntu/workspace/brduncan/labs/lab5/index.php:21
+Stack trace:
+#0 /home/ubuntu/workspace/brduncan/labs/lab5/index.php(21): PDOStatement->execute()
+#1 /home/ubuntu/workspace/brduncan/labs/lab5/index.php(72): getAllQuotes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/brduncan/labs/lab5/index.php on line 21
+[12-Oct-2017 17:22:47 UTC] PHP Parse error:  syntax error, unexpected ')' in /home/ubuntu/workspace/brduncan/labs/lab5/index.php on line 55
+[12-Oct-2017 18:25:51 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/brduncan/labs/lab5/index.php on line 52
+[12-Oct-2017 18:25:51 UTC] PHP Stack trace:
+[12-Oct-2017 18:25:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/brduncan/labs/lab5/index.php:0
+[12-Oct-2017 18:25:51 UTC] PHP   2. getRandomQuote() /home/ubuntu/workspace/brduncan/labs/lab5/index.php:99
