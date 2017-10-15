@@ -10,7 +10,7 @@
 
 <?php
 
-include '../../../dbConnection.php';
+include '../../.git/dbConnection.php';
 
 $dbConn = getDatabaseConnection();
 
