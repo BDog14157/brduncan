@@ -84,3 +84,8 @@ Stack trace:
 [12-Oct-2017 18:25:51 UTC] PHP Stack trace:
 [12-Oct-2017 18:25:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/brduncan/labs/lab5/index.php:0
 [12-Oct-2017 18:25:51 UTC] PHP   2. getRandomQuote() /home/ubuntu/workspace/brduncan/labs/lab5/index.php:99
+[14-Oct-2017 23:52:55 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/ubuntu/workspace/brduncan/labs/lab5/getAuthorInfo.php:9
+Stack trace:
+#0 /home/ubuntu/workspace/brduncan/labs/lab5/getAuthorInfo.php(9): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/brduncan/labs/lab5/getAuthorInfo.php on line 9

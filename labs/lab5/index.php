@@ -1,3 +1,13 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Lab 5: Random Famous Quote Generator </title>
+        <link href="css/styles.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        
+        <h1> Random Quote Generator </h1>
+
 <?php
 
 include '../../../dbConnection.php';
@@ -88,18 +98,21 @@ function getRandomQuote() {
 
 ?>
 
-<!DOCTYPE html>
-<html>
-    <head>
-        <title> Lab 5: Random Famous Quote Generator </title>
-    </head>
-    <body>
+
 
 
     <?=getRandomQuote()?>        
     
     <br />
-    <iframe name="authorInfo" width="500" height="300"></iframe>
+    <iframe name="authorInfo" width="700" height="500"></iframe>
+    
+    <form>
+    <input type="submit" value="Refresh Quote">
+</form>
 
     </body>
+    
+    <footer>
+        <h5>&#9400 Brian Duncan 2017</h5>
+    </footer>
 </html>
