@@ -10,7 +10,7 @@
 
 <?php
 
-include '../../.git/dbConnection.php';
+include '../../dbConnection.php';
 
 $dbConn = getDatabaseConnection();
 
@@ -83,7 +83,7 @@ function getRandomQuote() {
     $record = $stmt -> fetch(); //using "fetch()" because it's expected to get ONLY ONE record        
     
     echo  "<em>" . $record['quote']  . "</em><br />";
-    echo "<a target='authorInfo' href='../../.git/getAuthorInfo.php?authorId=".$record['authorId']."'>-" . $record['firstName'] . " " . $record['lastName'] . "</a>";
+    echo "<a target='authorInfo' href='../../getAuthorInfo.php?authorId=".$record['authorId']."'>-" . $record['firstName'] . " " . $record['lastName'] . "</a>";
     
     //print_r($records);
 
