@@ -6,7 +6,7 @@ $host = 'localhost'; //cloud 9 database
 $username = 'root';
 $password = '';
 //creates database connection
-
+$dbConn = new PDO("mysql:host=$host;dbname=$dbname", $username, $password);
 
 //when connecting to heroku
     //when connecting from Heroku
@@ -18,7 +18,7 @@ $password = '';
         $password = $url["pass"];
     } 
 
-$dbConn = new PDO("mysql:host=$host;dbname=$dbname", $username, $password);
+
 
 //we'll be able to see some errors with database
 $dbConn -> setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
