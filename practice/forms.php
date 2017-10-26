@@ -19,7 +19,7 @@
         
         <form>
             <input type="text" name="keyword"/>
-            <input type="submit" name="Search!"/>
+            <input type="submit" value="Plan it!"/>
         </form>
         
         

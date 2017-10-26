@@ -218,3 +218,35 @@ Stack trace:
 #1 /home/ubuntu/workspace/brduncan/labs/lab6/index.php(137): displayQuotes()
 #2 {main}
   thrown in /home/ubuntu/workspace/brduncan/labs/lab6/index.php on line 91
+[24-Oct-2017 18:09:41 UTC] PHP Warning:  include(../dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/brduncan/labs/lab7/loginProcess.php on line 4
+[24-Oct-2017 18:09:41 UTC] PHP Stack trace:
+[24-Oct-2017 18:09:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/brduncan/labs/lab7/loginProcess.php:0
+[24-Oct-2017 18:09:41 UTC] PHP Warning:  include(): Failed opening '../dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/brduncan/labs/lab7/loginProcess.php on line 4
+[24-Oct-2017 18:09:41 UTC] PHP Stack trace:
+[24-Oct-2017 18:09:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/brduncan/labs/lab7/loginProcess.php:0
+[24-Oct-2017 18:09:41 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/brduncan/labs/lab7/loginProcess.php on line 5
+[24-Oct-2017 18:09:41 UTC] PHP Stack trace:
+[24-Oct-2017 18:09:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/brduncan/labs/lab7/loginProcess.php:0
+[24-Oct-2017 18:15:48 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'password' in 'where clause'' in /home/ubuntu/workspace/brduncan/labs/lab7/loginProcess.php:20
+Stack trace:
+#0 /home/ubuntu/workspace/brduncan/labs/lab7/loginProcess.php(20): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/brduncan/labs/lab7/loginProcess.php on line 20
+[24-Oct-2017 18:16:09 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'password' in 'where clause'' in /home/ubuntu/workspace/brduncan/labs/lab7/loginProcess.php:19
+Stack trace:
+#0 /home/ubuntu/workspace/brduncan/labs/lab7/loginProcess.php(19): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/brduncan/labs/lab7/loginProcess.php on line 19
+[24-Oct-2017 18:19:57 UTC] PHP Fatal error:  Call to undefined function Location() in /home/ubuntu/workspace/brduncan/labs/lab7/loginProcess.php on line 31
+[24-Oct-2017 18:19:57 UTC] PHP Stack trace:
+[24-Oct-2017 18:19:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/brduncan/labs/lab7/loginProcess.php:0
+[24-Oct-2017 18:20:13 UTC] PHP Fatal error:  Call to undefined function location() in /home/ubuntu/workspace/brduncan/labs/lab7/loginProcess.php on line 31
+[24-Oct-2017 18:20:13 UTC] PHP Stack trace:
+[24-Oct-2017 18:20:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/brduncan/labs/lab7/loginProcess.php:0
+[24-Oct-2017 18:40:33 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/ubuntu/workspace/brduncan/labs/lab7/admin.php on line 36
+[26-Oct-2017 01:17:57 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'category' in 'where clause'' in /home/ubuntu/workspace/brduncan/labs/lab6/index.php:102
+Stack trace:
+#0 /home/ubuntu/workspace/brduncan/labs/lab6/index.php(102): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/brduncan/labs/lab6/index.php(174): displayQuotes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/brduncan/labs/lab6/index.php on line 102
