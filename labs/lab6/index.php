@@ -203,6 +203,8 @@
             <?php
             if (!empty($_GET)){
             displayQuotes();
+            } else {
+                echo "Please click \"Filter\" to see some quotes!";
             }
             ?>
             
