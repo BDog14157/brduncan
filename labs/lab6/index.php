@@ -200,7 +200,11 @@
 
         <div class="quotes">
             
-            <?=displayQuotes()?>
+            <?php
+            if (!empty($_GET)){
+            displayQuotes();
+            }
+            ?>
             
         </div>
         
