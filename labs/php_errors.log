@@ -250,3 +250,77 @@ Stack trace:
 #1 /home/ubuntu/workspace/brduncan/labs/lab6/index.php(174): displayQuotes()
 #2 {main}
   thrown in /home/ubuntu/workspace/brduncan/labs/lab6/index.php on line 102
+[26-Oct-2017 18:10:34 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'gender' cannot be null' in /home/ubuntu/workspace/brduncan/labs/lab7/addAuthor.php:26
+Stack trace:
+#0 /home/ubuntu/workspace/brduncan/labs/lab7/addAuthor.php(26): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/brduncan/labs/lab7/addAuthor.php on line 26
+[26-Oct-2017 18:10:45 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'gender' cannot be null' in /home/ubuntu/workspace/brduncan/labs/lab7/addAuthor.php:26
+Stack trace:
+#0 /home/ubuntu/workspace/brduncan/labs/lab7/addAuthor.php(26): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/brduncan/labs/lab7/addAuthor.php on line 26
+[26-Oct-2017 18:11:10 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'gender' cannot be null' in /home/ubuntu/workspace/brduncan/labs/lab7/addAuthor.php:26
+Stack trace:
+#0 /home/ubuntu/workspace/brduncan/labs/lab7/addAuthor.php(26): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/brduncan/labs/lab7/addAuthor.php on line 26
+[26-Oct-2017 18:12:44 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'gender' cannot be null' in /home/ubuntu/workspace/brduncan/labs/lab7/addAuthor.php:26
+Stack trace:
+#0 /home/ubuntu/workspace/brduncan/labs/lab7/addAuthor.php(26): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/brduncan/labs/lab7/addAuthor.php on line 26
+[26-Oct-2017 18:13:10 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'gender' cannot be null' in /home/ubuntu/workspace/brduncan/labs/lab7/addAuthor.php:26
+Stack trace:
+#0 /home/ubuntu/workspace/brduncan/labs/lab7/addAuthor.php(26): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/brduncan/labs/lab7/addAuthor.php on line 26
+[31-Oct-2017 17:38:34 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/brduncan/labs/lab7/updateAuthor.php on line 24
+[31-Oct-2017 17:38:38 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/brduncan/labs/lab7/updateAuthor.php on line 24
+[31-Oct-2017 17:47:24 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/brduncan/labs/lab7/updateAuthor.php:35
+Stack trace:
+#0 /home/ubuntu/workspace/brduncan/labs/lab7/updateAuthor.php(35): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/brduncan/labs/lab7/updateAuthor.php on line 35
+[31-Oct-2017 17:51:38 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 2014 Cannot execute queries while other unbuffered queries are active.  Consider using PDOStatement::fetchAll().  Alternatively, if your code is only ever going to run against mysql, you may enable query buffering by setting the PDO::MYSQL_ATTR_USE_BUFFERED_QUERY attribute.' in /home/ubuntu/workspace/brduncan/labs/lab7/updateAuthor.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/brduncan/labs/lab7/updateAuthor.php(14): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/brduncan/labs/lab7/updateAuthor.php(51): getAuthorInfo()
+#2 {main}
+  thrown in /home/ubuntu/workspace/brduncan/labs/lab7/updateAuthor.php on line 14
+[31-Oct-2017 17:51:52 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 2014 Cannot execute queries while other unbuffered queries are active.  Consider using PDOStatement::fetchAll().  Alternatively, if your code is only ever going to run against mysql, you may enable query buffering by setting the PDO::MYSQL_ATTR_USE_BUFFERED_QUERY attribute.' in /home/ubuntu/workspace/brduncan/labs/lab7/updateAuthor.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/brduncan/labs/lab7/updateAuthor.php(14): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/brduncan/labs/lab7/updateAuthor.php(51): getAuthorInfo()
+#2 {main}
+  thrown in /home/ubuntu/workspace/brduncan/labs/lab7/updateAuthor.php on line 14
+[31-Oct-2017 18:00:39 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'dod' cannot be null' in /home/ubuntu/workspace/brduncan/labs/lab7/addAuthor.php:26
+Stack trace:
+#0 /home/ubuntu/workspace/brduncan/labs/lab7/addAuthor.php(26): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/brduncan/labs/lab7/addAuthor.php on line 26
+[31-Oct-2017 18:00:55 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'dod' cannot be null' in /home/ubuntu/workspace/brduncan/labs/lab7/addAuthor.php:26
+Stack trace:
+#0 /home/ubuntu/workspace/brduncan/labs/lab7/addAuthor.php(26): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/brduncan/labs/lab7/addAuthor.php on line 26
+[04-Nov-2017 23:39:53 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'dod' cannot be null' in /home/ubuntu/workspace/brduncan/labs/lab7/addAuthor.php:26
+Stack trace:
+#0 /home/ubuntu/workspace/brduncan/labs/lab7/addAuthor.php(26): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/brduncan/labs/lab7/addAuthor.php on line 26
+[04-Nov-2017 23:40:00 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'dod' cannot be null' in /home/ubuntu/workspace/brduncan/labs/lab7/addAuthor.php:26
+Stack trace:
+#0 /home/ubuntu/workspace/brduncan/labs/lab7/addAuthor.php(26): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/brduncan/labs/lab7/addAuthor.php on line 26
+[04-Nov-2017 23:40:17 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'dod' cannot be null' in /home/ubuntu/workspace/brduncan/labs/lab7/addAuthor.php:26
+Stack trace:
+#0 /home/ubuntu/workspace/brduncan/labs/lab7/addAuthor.php(26): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/brduncan/labs/lab7/addAuthor.php on line 26
+[04-Nov-2017 23:41:23 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'dod' cannot be null' in /home/ubuntu/workspace/brduncan/labs/lab7/addAuthor.php:26
+Stack trace:
+#0 /home/ubuntu/workspace/brduncan/labs/lab7/addAuthor.php(26): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/brduncan/labs/lab7/addAuthor.php on line 26
