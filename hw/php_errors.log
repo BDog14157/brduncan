@@ -1,1 +1,8 @@
 [10-Oct-2017 05:52:13 UTC] PHP Parse error:  syntax error, unexpected '?>' in /home/ubuntu/workspace/brduncan/hw/hw3/returnData.php on line 18
+[14-Nov-2017 09:26:27 UTC] PHP Fatal error:  Cannot use isset() on the result of a function call (you can use "null !== func()" instead) in /home/ubuntu/workspace/brduncan/hw/hw4/index.php on line 181
+[14-Nov-2017 09:27:36 UTC] PHP Fatal error:  Function name must be a string in /home/ubuntu/workspace/brduncan/hw/hw4/index.php on line 181
+[14-Nov-2017 09:27:36 UTC] PHP Stack trace:
+[14-Nov-2017 09:27:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/brduncan/hw/hw4/index.php:0
+[14-Nov-2017 09:29:56 UTC] PHP Fatal error:  Function name must be a string in /home/ubuntu/workspace/brduncan/hw/hw4/index.php on line 181
+[14-Nov-2017 09:29:56 UTC] PHP Stack trace:
+[14-Nov-2017 09:29:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/brduncan/hw/hw4/index.php:0

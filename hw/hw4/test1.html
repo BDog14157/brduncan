@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> </title>
+        <script src="https://code.jquery.com/jquery.min.js">
+            
+            function disName(){
+                alert(document.forms["myForm"]["vname"].value)
+            }
+            
+            
+            
+        </script>
+    </head>
+    <body>
+        <form name="myForm" id="myForm" action="" method="get">
+            Give me a name: <input type="text" name="vname"><br />
+            Give me another name: <input type="text" name="vname2"> <br />
+            <input type="button" value="Check Name" onClick="disName()">
+            
+        </form>
+        
+        
+
+    </body>
+</html>
