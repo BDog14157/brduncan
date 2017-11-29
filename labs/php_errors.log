@@ -324,3 +324,14 @@ Stack trace:
 #0 /home/ubuntu/workspace/brduncan/labs/lab7/addAuthor.php(26): PDOStatement->execute(Array)
 #1 {main}
   thrown in /home/ubuntu/workspace/brduncan/labs/lab7/addAuthor.php on line 26
+[28-Nov-2017 18:45:12 UTC] PHP Fatal error:  Call to undefined function move_uploaded_files() in /home/ubuntu/workspace/brduncan/labs/lab10/index.php on line 8
+[28-Nov-2017 18:45:12 UTC] PHP Stack trace:
+[28-Nov-2017 18:45:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/brduncan/labs/lab10/index.php:0
+[28-Nov-2017 18:48:50 UTC] PHP Warning:  move_uploaded_file(gallery/logo2.jpg): failed to open stream: No such file or directory in /home/ubuntu/workspace/brduncan/labs/lab10/index.php on line 8
+[28-Nov-2017 18:48:50 UTC] PHP Stack trace:
+[28-Nov-2017 18:48:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/brduncan/labs/lab10/index.php:0
+[28-Nov-2017 18:48:50 UTC] PHP   2. move_uploaded_file() /home/ubuntu/workspace/brduncan/labs/lab10/index.php:8
+[28-Nov-2017 18:48:50 UTC] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/php0a5J1T' to 'gallery/logo2.jpg' in /home/ubuntu/workspace/brduncan/labs/lab10/index.php on line 8
+[28-Nov-2017 18:48:50 UTC] PHP Stack trace:
+[28-Nov-2017 18:48:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/brduncan/labs/lab10/index.php:0
+[28-Nov-2017 18:48:50 UTC] PHP   2. move_uploaded_file() /home/ubuntu/workspace/brduncan/labs/lab10/index.php:8
