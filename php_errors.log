@@ -148,3 +148,168 @@ Stack trace:
 #2 {main}
   thrown in /home/ubuntu/workspace/brduncan/midterm/program2.php on line 74
 [19-Oct-2017 17:54:22 UTC] PHP Parse error:  syntax error, unexpected '"<br />"' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/ubuntu/workspace/brduncan/midterm/program2.php on line 137
+[03-Dec-2017 22:29:32 UTC] PHP Warning:  include(../../dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/brduncan/final/index.php on line 5
+[03-Dec-2017 22:29:32 UTC] PHP Stack trace:
+[03-Dec-2017 22:29:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/brduncan/final/index.php:0
+[03-Dec-2017 22:29:32 UTC] PHP Warning:  include(): Failed opening '../../dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/brduncan/final/index.php on line 5
+[03-Dec-2017 22:29:32 UTC] PHP Stack trace:
+[03-Dec-2017 22:29:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/brduncan/final/index.php:0
+[03-Dec-2017 22:29:32 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/brduncan/final/index.php on line 6
+[03-Dec-2017 22:29:32 UTC] PHP Stack trace:
+[03-Dec-2017 22:29:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/brduncan/final/index.php:0
+[04-Dec-2017 01:00:33 UTC] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home/ubuntu/workspace/brduncan/final/compare.php on line 2
+[04-Dec-2017 01:01:10 UTC] PHP Fatal error:  Cannot use isset() on the result of a function call (you can use "null !== func()" instead) in /home/ubuntu/workspace/brduncan/final/compare.php on line 2
+[04-Dec-2017 01:02:29 UTC] PHP Fatal error:  Call to undefined function alert() in /home/ubuntu/workspace/brduncan/final/compare.php on line 3
+[04-Dec-2017 01:02:29 UTC] PHP Stack trace:
+[04-Dec-2017 01:02:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/brduncan/final/compare.php:0
+[04-Dec-2017 04:28:01 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'quotes.fighters' doesn't exist' in /home/ubuntu/workspace/brduncan/final/compare.php:16
+Stack trace:
+#0 /home/ubuntu/workspace/brduncan/final/compare.php(16): PDOStatement->execute()
+#1 /home/ubuntu/workspace/brduncan/final/compare.php(64): comparePlanes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/brduncan/final/compare.php on line 16
+[04-Dec-2017 04:28:40 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'final'' in /home/ubuntu/workspace/brduncan/final/dbConnectionCopy.php:21
+Stack trace:
+#0 /home/ubuntu/workspace/brduncan/final/dbConnectionCopy.php(21): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/ubuntu/workspace/brduncan/final/compare.php(4): getDatabaseConnection()
+#2 {main}
+  thrown in /home/ubuntu/workspace/brduncan/final/dbConnectionCopy.php on line 21
+[04-Dec-2017 04:28:42 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'final'' in /home/ubuntu/workspace/brduncan/final/dbConnectionCopy.php:21
+Stack trace:
+#0 /home/ubuntu/workspace/brduncan/final/dbConnectionCopy.php(21): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/ubuntu/workspace/brduncan/final/compare.php(4): getDatabaseConnection()
+#2 {main}
+  thrown in /home/ubuntu/workspace/brduncan/final/dbConnectionCopy.php on line 21
+[04-Dec-2017 04:40:15 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3' in /home/ubuntu/workspace/brduncan/final/compare.php:19
+Stack trace:
+#0 /home/ubuntu/workspace/brduncan/final/compare.php(19): PDOStatement->execute()
+#1 /home/ubuntu/workspace/brduncan/final/compare.php(73): comparePlanes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/brduncan/final/compare.php on line 19
+[04-Dec-2017 04:40:17 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3' in /home/ubuntu/workspace/brduncan/final/compare.php:19
+Stack trace:
+#0 /home/ubuntu/workspace/brduncan/final/compare.php(19): PDOStatement->execute()
+#1 /home/ubuntu/workspace/brduncan/final/compare.php(73): comparePlanes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/brduncan/final/compare.php on line 19
+[04-Dec-2017 04:40:18 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3' in /home/ubuntu/workspace/brduncan/final/compare.php:19
+Stack trace:
+#0 /home/ubuntu/workspace/brduncan/final/compare.php(19): PDOStatement->execute()
+#1 /home/ubuntu/workspace/brduncan/final/compare.php(73): comparePlanes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/brduncan/final/compare.php on line 19
+[04-Dec-2017 04:40:21 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3' in /home/ubuntu/workspace/brduncan/final/compare.php:19
+Stack trace:
+#0 /home/ubuntu/workspace/brduncan/final/compare.php(19): PDOStatement->execute()
+#1 /home/ubuntu/workspace/brduncan/final/compare.php(73): comparePlanes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/brduncan/final/compare.php on line 19
+[04-Dec-2017 04:40:23 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3' in /home/ubuntu/workspace/brduncan/final/compare.php:19
+Stack trace:
+#0 /home/ubuntu/workspace/brduncan/final/compare.php(19): PDOStatement->execute()
+#1 /home/ubuntu/workspace/brduncan/final/compare.php(73): comparePlanes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/brduncan/final/compare.php on line 19
+[04-Dec-2017 04:40:26 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3' in /home/ubuntu/workspace/brduncan/final/compare.php:19
+Stack trace:
+#0 /home/ubuntu/workspace/brduncan/final/compare.php(19): PDOStatement->execute()
+#1 /home/ubuntu/workspace/brduncan/final/compare.php(73): comparePlanes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/brduncan/final/compare.php on line 19
+[05-Dec-2017 02:10:08 UTC] PHP Warning:  include(../../dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/brduncan/final/admin.php on line 14
+[05-Dec-2017 02:10:08 UTC] PHP Stack trace:
+[05-Dec-2017 02:10:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/brduncan/final/admin.php:0
+[05-Dec-2017 02:10:08 UTC] PHP   2. authorList() /home/ubuntu/workspace/brduncan/final/admin.php:61
+[05-Dec-2017 02:10:08 UTC] PHP Warning:  include(): Failed opening '../../dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/brduncan/final/admin.php on line 14
+[05-Dec-2017 02:10:08 UTC] PHP Stack trace:
+[05-Dec-2017 02:10:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/brduncan/final/admin.php:0
+[05-Dec-2017 02:10:08 UTC] PHP   2. authorList() /home/ubuntu/workspace/brduncan/final/admin.php:61
+[05-Dec-2017 02:10:08 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/brduncan/final/admin.php on line 15
+[05-Dec-2017 02:10:08 UTC] PHP Stack trace:
+[05-Dec-2017 02:10:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/brduncan/final/admin.php:0
+[05-Dec-2017 02:10:08 UTC] PHP   2. authorList() /home/ubuntu/workspace/brduncan/final/admin.php:61
+[05-Dec-2017 02:11:11 UTC] PHP Warning:  include(dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/brduncan/final/admin.php on line 14
+[05-Dec-2017 02:11:11 UTC] PHP Stack trace:
+[05-Dec-2017 02:11:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/brduncan/final/admin.php:0
+[05-Dec-2017 02:11:11 UTC] PHP   2. authorList() /home/ubuntu/workspace/brduncan/final/admin.php:61
+[05-Dec-2017 02:11:11 UTC] PHP Warning:  include(): Failed opening 'dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/brduncan/final/admin.php on line 14
+[05-Dec-2017 02:11:11 UTC] PHP Stack trace:
+[05-Dec-2017 02:11:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/brduncan/final/admin.php:0
+[05-Dec-2017 02:11:11 UTC] PHP   2. authorList() /home/ubuntu/workspace/brduncan/final/admin.php:61
+[05-Dec-2017 02:11:11 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/brduncan/final/admin.php on line 15
+[05-Dec-2017 02:11:11 UTC] PHP Stack trace:
+[05-Dec-2017 02:11:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/brduncan/final/admin.php:0
+[05-Dec-2017 02:11:11 UTC] PHP   2. authorList() /home/ubuntu/workspace/brduncan/final/admin.php:61
+[05-Dec-2017 02:11:39 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND attackers AND bombers
+            ORDER BY name' at line 2' in /home/ubuntu/workspace/brduncan/final/admin.php:20
+Stack trace:
+#0 /home/ubuntu/workspace/brduncan/final/admin.php(20): PDOStatement->execute()
+#1 /home/ubuntu/workspace/brduncan/final/admin.php(61): authorList()
+#2 {main}
+  thrown in /home/ubuntu/workspace/brduncan/final/admin.php on line 20
+[05-Dec-2017 02:39:51 UTC] PHP Warning:  include(../../dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/brduncan/final/updateAircraft.php on line 12
+[05-Dec-2017 02:39:51 UTC] PHP Stack trace:
+[05-Dec-2017 02:39:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/brduncan/final/updateAircraft.php:0
+[05-Dec-2017 02:39:51 UTC] PHP Warning:  include(): Failed opening '../../dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/brduncan/final/updateAircraft.php on line 12
+[05-Dec-2017 02:39:51 UTC] PHP Stack trace:
+[05-Dec-2017 02:39:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/brduncan/final/updateAircraft.php:0
+[05-Dec-2017 02:39:51 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/brduncan/final/updateAircraft.php on line 13
+[05-Dec-2017 02:39:51 UTC] PHP Stack trace:
+[05-Dec-2017 02:39:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/brduncan/final/updateAircraft.php:0
+[05-Dec-2017 04:56:52 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'finalProject.q_aircraft' doesn't exist' in /home/ubuntu/workspace/brduncan/final/updateAircraft.php:44
+Stack trace:
+#0 /home/ubuntu/workspace/brduncan/final/updateAircraft.php(44): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/brduncan/final/updateAircraft.php on line 44
+[05-Dec-2017 05:01:50 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Aircraft' at line 3' in /home/ubuntu/workspace/brduncan/final/updateAircraft.php:23
+Stack trace:
+#0 /home/ubuntu/workspace/brduncan/final/updateAircraft.php(23): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/brduncan/final/updateAircraft.php(63): getAircraftInfo()
+#2 {main}
+  thrown in /home/ubuntu/workspace/brduncan/final/updateAircraft.php on line 23
+[05-Dec-2017 05:28:20 UTC] PHP Fatal error:  Call to undefined function AVG() in /home/ubuntu/workspace/brduncan/final/reports.php on line 26
+[05-Dec-2017 05:28:20 UTC] PHP Stack trace:
+[05-Dec-2017 05:28:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/brduncan/final/reports.php:0
+[05-Dec-2017 05:28:20 UTC] PHP   2. fighterDamage() /home/ubuntu/workspace/brduncan/final/reports.php:69
+[05-Dec-2017 05:33:53 UTC] PHP Fatal error:  Call to undefined function AVG() in /home/ubuntu/workspace/brduncan/final/reports.php on line 26
+[05-Dec-2017 05:33:53 UTC] PHP Stack trace:
+[05-Dec-2017 05:33:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/brduncan/final/reports.php:0
+[05-Dec-2017 05:33:53 UTC] PHP   2. fighterDamage() /home/ubuntu/workspace/brduncan/final/reports.php:70
+[05-Dec-2017 05:38:00 UTC] PHP Warning:  mysql_query() expects parameter 2 to be resource, object given in /home/ubuntu/workspace/brduncan/final/reports.php on line 27
+[05-Dec-2017 05:38:00 UTC] PHP Stack trace:
+[05-Dec-2017 05:38:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/brduncan/final/reports.php:0
+[05-Dec-2017 05:38:00 UTC] PHP   2. fighterDamage() /home/ubuntu/workspace/brduncan/final/reports.php:77
+[05-Dec-2017 05:38:00 UTC] PHP   3. mysql_query() /home/ubuntu/workspace/brduncan/final/reports.php:27
+[05-Dec-2017 05:38:00 UTC] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, null given in /home/ubuntu/workspace/brduncan/final/reports.php on line 28
+[05-Dec-2017 05:38:00 UTC] PHP Stack trace:
+[05-Dec-2017 05:38:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/brduncan/final/reports.php:0
+[05-Dec-2017 05:38:00 UTC] PHP   2. fighterDamage() /home/ubuntu/workspace/brduncan/final/reports.php:77
+[05-Dec-2017 05:38:00 UTC] PHP   3. mysql_num_rows() /home/ubuntu/workspace/brduncan/final/reports.php:28
+[05-Dec-2017 05:38:00 UTC] PHP Warning:  mysql_result() expects parameter 1 to be resource, null given in /home/ubuntu/workspace/brduncan/final/reports.php on line 30
+[05-Dec-2017 05:38:00 UTC] PHP Stack trace:
+[05-Dec-2017 05:38:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/brduncan/final/reports.php:0
+[05-Dec-2017 05:38:00 UTC] PHP   2. fighterDamage() /home/ubuntu/workspace/brduncan/final/reports.php:77
+[05-Dec-2017 05:38:00 UTC] PHP   3. mysql_result() /home/ubuntu/workspace/brduncan/final/reports.php:30
+[05-Dec-2017 05:38:22 UTC] PHP Warning:  mysql_query() expects parameter 2 to be resource, object given in /home/ubuntu/workspace/brduncan/final/reports.php on line 20
+[05-Dec-2017 05:38:22 UTC] PHP Stack trace:
+[05-Dec-2017 05:38:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/brduncan/final/reports.php:0
+[05-Dec-2017 05:38:22 UTC] PHP   2. fighterDamage() /home/ubuntu/workspace/brduncan/final/reports.php:78
+[05-Dec-2017 05:38:22 UTC] PHP   3. mysql_query() /home/ubuntu/workspace/brduncan/final/reports.php:20
+[05-Dec-2017 05:38:22 UTC] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, null given in /home/ubuntu/workspace/brduncan/final/reports.php on line 21
+[05-Dec-2017 05:38:22 UTC] PHP Stack trace:
+[05-Dec-2017 05:38:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/brduncan/final/reports.php:0
+[05-Dec-2017 05:38:22 UTC] PHP   2. fighterDamage() /home/ubuntu/workspace/brduncan/final/reports.php:78
+[05-Dec-2017 05:38:22 UTC] PHP   3. mysql_num_rows() /home/ubuntu/workspace/brduncan/final/reports.php:21
+[05-Dec-2017 05:38:22 UTC] PHP Warning:  mysql_result() expects parameter 1 to be resource, null given in /home/ubuntu/workspace/brduncan/final/reports.php on line 23
+[05-Dec-2017 05:38:22 UTC] PHP Stack trace:
+[05-Dec-2017 05:38:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/brduncan/final/reports.php:0
+[05-Dec-2017 05:38:22 UTC] PHP   2. fighterDamage() /home/ubuntu/workspace/brduncan/final/reports.php:78
+[05-Dec-2017 05:38:22 UTC] PHP   3. mysql_result() /home/ubuntu/workspace/brduncan/final/reports.php:23
+[05-Dec-2017 05:40:35 UTC] PHP Warning:  mysql_result() expects parameter 1 to be resource, array given in /home/ubuntu/workspace/brduncan/final/reports.php on line 27
+[05-Dec-2017 05:40:35 UTC] PHP Stack trace:
+[05-Dec-2017 05:40:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/brduncan/final/reports.php:0
+[05-Dec-2017 05:40:35 UTC] PHP   2. fighterDamage() /home/ubuntu/workspace/brduncan/final/reports.php:75
+[05-Dec-2017 05:40:35 UTC] PHP   3. mysql_result() /home/ubuntu/workspace/brduncan/final/reports.php:27
+[05-Dec-2017 06:14:41 UTC] PHP Fatal error:  Cannot use [] for reading in /home/ubuntu/workspace/brduncan/final/reports.php on line 53
+[05-Dec-2017 06:15:39 UTC] PHP Fatal error:  Cannot use [] for reading in /home/ubuntu/workspace/brduncan/final/reports.php on line 27
+[05-Dec-2017 06:15:44 UTC] PHP Fatal error:  Cannot use [] for reading in /home/ubuntu/workspace/brduncan/final/reports.php on line 27

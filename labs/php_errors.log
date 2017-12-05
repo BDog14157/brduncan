@@ -335,3 +335,27 @@ Stack trace:
 [28-Nov-2017 18:48:50 UTC] PHP Stack trace:
 [28-Nov-2017 18:48:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/brduncan/labs/lab10/index.php:0
 [28-Nov-2017 18:48:50 UTC] PHP   2. move_uploaded_file() /home/ubuntu/workspace/brduncan/labs/lab10/index.php:8
+[05-Dec-2017 02:05:30 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'finalProject.q_author' doesn't exist' in /home/ubuntu/workspace/brduncan/labs/lab7/admin.php:20
+Stack trace:
+#0 /home/ubuntu/workspace/brduncan/labs/lab7/admin.php(20): PDOStatement->execute()
+#1 /home/ubuntu/workspace/brduncan/labs/lab7/admin.php(61): authorList()
+#2 {main}
+  thrown in /home/ubuntu/workspace/brduncan/labs/lab7/admin.php on line 20
+[05-Dec-2017 02:05:46 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'finalProject.q_author' doesn't exist' in /home/ubuntu/workspace/brduncan/labs/lab7/admin.php:20
+Stack trace:
+#0 /home/ubuntu/workspace/brduncan/labs/lab7/admin.php(20): PDOStatement->execute()
+#1 /home/ubuntu/workspace/brduncan/labs/lab7/admin.php(61): authorList()
+#2 {main}
+  thrown in /home/ubuntu/workspace/brduncan/labs/lab7/admin.php on line 20
+[05-Dec-2017 02:12:12 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'finalProject.q_author' doesn't exist' in /home/ubuntu/workspace/brduncan/labs/lab7/admin.php:20
+Stack trace:
+#0 /home/ubuntu/workspace/brduncan/labs/lab7/admin.php(20): PDOStatement->execute()
+#1 /home/ubuntu/workspace/brduncan/labs/lab7/admin.php(61): authorList()
+#2 {main}
+  thrown in /home/ubuntu/workspace/brduncan/labs/lab7/admin.php on line 20
+[05-Dec-2017 02:32:28 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'finalProject.q_author' doesn't exist' in /home/ubuntu/workspace/brduncan/labs/lab7/admin.php:20
+Stack trace:
+#0 /home/ubuntu/workspace/brduncan/labs/lab7/admin.php(20): PDOStatement->execute()
+#1 /home/ubuntu/workspace/brduncan/labs/lab7/admin.php(61): authorList()
+#2 {main}
+  thrown in /home/ubuntu/workspace/brduncan/labs/lab7/admin.php on line 20

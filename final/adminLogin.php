@@ -2,7 +2,7 @@
 session_start(); //starts or resumes an existing session
 //print_r($_POST); //displays values passed from login form
 //validates the username and password
-include '../../dbConnection.php';
+include 'dbConnectionCopy.php';
 $conn = getDatabaseConnection();
 $username = $_POST['username'];
 $password = sha1($_POST['password']);
@@ -26,15 +26,54 @@ $record = $stmt->fetch(PDO::FETCH_ASSOC);
 //print_r($record);
 if (empty($record)) {
     
+    if(isset($_POST['username'])){
+    
   echo "Wrong credentials!";  
-  
+    }
 } else {
     
     $_SESSION['username'] = $record['username'];
     $_SESSION['adminFullName'] = $record['firstName'] . " " . $record['lastName'];
-   // echo $_SESSION['adminFullName'];
+   //echo $_SESSION['adminFullName'];
    //echo "Successful login!";
    header('Location: admin.php'); //redirects users to admin page
    
 }
 ?>
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>War Thunder Login</title>
+        <style>
+            body {
+                text-align: center;
+            }
+            fieldset{
+                margin-left: 10%;
+                margin-right: 10%;
+            }
+        </style>
+    </head>
+    <body>
+
+        <fieldset>
+        <h1>Admin Login</h1>
+        <h3> Username: admin Password: admin </h3>
+        
+        
+        <form method="POST">
+    
+        Username: <input type="text" name="username"/> <br />
+        Password: <input type="password" name="password"/> <br />
+        <input type="submit" value="Login!" name="loginForm" />
+            
+        </form>
+        
+</fieldset>
+<br />
+If you are not an Admin, click <a href="index.php">Here</a> to login.
+
+    </body>
+</html>

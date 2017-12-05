@@ -2,7 +2,7 @@
 session_start(); //starts or resumes an existing session
 //print_r($_POST); //displays values passed from login form
 //validates the username and password
-include '../../dbConnection.php';
+include 'dbConnectionCopy.php';
 $conn = getDatabaseConnection();
 $username = $_POST['username'];
 $password = sha1($_POST['password']);
@@ -36,7 +36,7 @@ if (empty($record)) {
     $_SESSION['adminFullName'] = $record['firstName'] . " " . $record['lastName'];
    //echo $_SESSION['adminFullName'];
    //echo "Successful login!";
-   header('Location: quiz.php'); //redirects users to admin page
+   header('Location: compare.php'); //redirects users to admin page
    
 }
 ?>
@@ -45,12 +45,21 @@ if (empty($record)) {
 <!DOCTYPE html>
 <html>
     <head>
-        <title> Lab 7: Admin Login</title>
+        <title>War Thunder Login</title>
+        <style>
+            body {
+                text-align: center;
+            }
+            fieldset{
+                margin-left: 10%;
+                margin-right: 10%;
+            }
+        </style>
     </head>
     <body>
 
-
-        <h1> Login</h1>
+        <fieldset>
+        <h1>User Login</h1>
         <h3> Username: user1 Password: user1 </h3>
         <h3> Username: user3 Password: user3 </h3>
         
@@ -61,7 +70,11 @@ if (empty($record)) {
         <input type="submit" value="Login!" name="loginForm" />
             
         </form>
-
+        
+</fieldset>
+<h2>If you do not wish to login, and only want to compare aircraft, click <a href="compare.php">Here</a>.</h2>
+<br />
+If you are an Admin, click <a href="adminLogin.php">Here</a> to login.
 
     </body>
 </html>
