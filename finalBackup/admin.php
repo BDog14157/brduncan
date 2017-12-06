@@ -43,15 +43,6 @@ function aircraftList(){
             
         </script>
         
-        <style>
-            body{
-    width: 40%;
-    text-align: center;
-    margin-left: 30%;
-    margin-right: 30%;
-}
-        </style>
-        
     </head>
     <body>
 
@@ -78,32 +69,25 @@ function aircraftList(){
         <?php 
         
         $aircrafts =aircraftList();
-        echo "      <table>
-  <tr>
-    <th>Update</th>
-    <th>Delete</th>
-    <th>Name</th>
-    
-  </tr>";
         
         foreach($aircrafts as $aircraft) {
             
-             
+            echo "[<a href='updateAircraft.php?aircraftId=".$aircraft['aircraftId']."'>Update</a>] ";
+            //echo "[<a href='deleteAuthor.php?authorId=".$author['authorId']."'>Delete</a>] ";
             
-            echo "<tr><td>[<a href='updateAircraft.php?aircraftId=".$aircraft['aircraftId']."'>Update</a>] </td>";
-        
-            
-            echo "<td><form style='display:inline' action='deleteAircraft.php' onsubmit='return confirmDelete()'>
+            echo "<form style='display:inline' action='deleteAircraft.php' onsubmit='return confirmDelete()'>
                     <input type='hidden' name='aircraftId' value='".$aircraft['aircraftId']."'>
                     <input type='submit' value='Delete'>
-                  </form></td>";
+                  </form>";
             
-            echo "<td> " . $aircraft['name'] . "  " . $aircraft['nationality'] . "<br></td></tr>";
+            echo $aircraft['name'] . "  " . $aircraft['nationality'] . "<br>";
         }
         
-        echo "</table>";
+        
         ?>
 
     </body>
-   
+    <footer>
+        &copy; Brian Duncan
+    </footer>
 </html>

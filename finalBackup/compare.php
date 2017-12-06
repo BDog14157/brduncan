@@ -72,10 +72,17 @@ $conn = getDatabaseConnection();
 <html>
     <head>
         <title>Plane Compairson</title>
-        <link href="css/styles.css" rel="stylesheet" type="text/css" />
+        <link rel="stylesheet" type="text/css" href="css/styles.css" />
+        <style>
+            h5{
+                text-align: right;
+            }
+        </style>
     </head>
+    
     <body>
         <h1>Compare Aircraft!</h1>
+        <h5><a href="index.php">User Login</a> / <a href="adminLogin.php">Admin Login</a></h5>
         
         
          <fieldset>
@@ -110,4 +117,7 @@ if (!empty($_GET['type'])){
 ?>
 
     </body>
+    <footer>
+        &copy; Brian Duncan
+    </footer>
 </html>

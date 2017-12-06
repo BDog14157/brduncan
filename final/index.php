@@ -46,6 +46,7 @@ if (empty($record)) {
 <html>
     <head>
         <title>War Thunder Login</title>
+        <link href="css/styles.css" rel="stylesheet" type="text/css" />
         <style>
             body {
                 text-align: center;
@@ -77,4 +78,7 @@ if (empty($record)) {
 If you are an Admin, click <a href="adminLogin.php">Here</a> to login.
 
     </body>
+    <footer>
+        &copy; Brian Duncan
+    </footer>
 </html>

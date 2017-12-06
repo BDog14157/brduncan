@@ -46,11 +46,21 @@ if (empty($record)) {
 <html>
     <head>
         <title>War Thunder Login</title>
+        <link href="css/styles.css" rel="stylesheet" type="text/css" />
+        <style>
+            body {
+                text-align: center;
+            }
+            fieldset{
+                margin-left: 10%;
+                margin-right: 10%;
+            }
+        </style>
     </head>
     <body>
 
-
-        <h1> Login</h1>
+        <fieldset>
+        <h1>User Login</h1>
         <h3> Username: user1 Password: user1 </h3>
         <h3> Username: user3 Password: user3 </h3>
         
@@ -61,7 +71,14 @@ if (empty($record)) {
         <input type="submit" value="Login!" name="loginForm" />
             
         </form>
-
+        
+</fieldset>
+<h2>If you do not wish to login, and only want to compare aircraft, click <a href="compare.php">Here</a>.</h2>
+<br />
+If you are an Admin, click <a href="adminLogin.php">Here</a> to login.
 
     </body>
+    <footer>
+        &copy; Brian Duncan
+    </footer>
 </html>

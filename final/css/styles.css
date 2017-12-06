@@ -15,7 +15,7 @@ tr:nth-child(even) {
 }
 h1 {
     text-align: center;
-    /*color: white;*/
+    
 }
 h5{
     text-align: right;
@@ -24,8 +24,20 @@ fieldset {
     text-align: center;
 }
 body{
-    /*width: 75%;*/
-    /*text-align: center;*/
+    width: 75%;
+    text-align: center;
     margin-left: 10%;
     margin-right: 10%;
+}
+footer {
+    clear: left;
+    color: white;
+    background-color:grey;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 25px;
+    width: 100%;
+    overflow:hidden;
+    text-align: center;
 }

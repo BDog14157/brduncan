@@ -72,7 +72,7 @@ $conn = getDatabaseConnection();
 <html>
     <head>
         <title>Plane Compairson</title>
-        <link href="css/styles.css" rel="stylesheet" type="text/css" />
+        <link rel="stylesheet" type="text/css" href="css/styles.css" />
         <style>
             h5{
                 text-align: right;
@@ -117,4 +117,5 @@ if (!empty($_GET['type'])){
 ?>
 
     </body>
+    
 </html>
