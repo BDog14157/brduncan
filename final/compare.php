@@ -72,7 +72,7 @@ $conn = getDatabaseConnection();
 <html>
     <head>
         <title>Plane Compairson</title>
-        <link rel="stylesheet" type="text/css" href="css/styles.css" />
+        <link href="css/styles.css" rel="stylesheet" type="text/css"  />
         <style>
             h5{
                 text-align: right;
@@ -115,6 +115,25 @@ if (!empty($_GET['type'])){
     }
     
 ?>
+
+
+<div id="demo">
+<button type="button" onclick="loadDoc()">Get more information about this project.</button>
+</div>
+
+<script>
+function loadDoc() {
+  var xhttp = new XMLHttpRequest();
+  xhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+      document.getElementById("demo").innerHTML =
+      this.responseText;
+    }
+  };
+  xhttp.open("GET", "ajax_info.txt", true);
+  xhttp.send();
+}
+</script>
 
     </body>
     

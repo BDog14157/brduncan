@@ -1,0 +1,2 @@
+This project was created as a way for users to compare planes based on type and goal.
+This will allow users to buy the correct planes in-game to suit their playstyle.

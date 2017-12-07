@@ -15,7 +15,7 @@ tr:nth-child(even) {
 }
 h1 {
     text-align: center;
-    
+    color: white;
 }
 h5{
     text-align: right;
@@ -31,7 +31,7 @@ body{
 }
 footer {
     clear: left;
-    color: white;
+    color: black;
     background-color:grey;
     position: absolute;
     left: 0;
